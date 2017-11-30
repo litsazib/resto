@@ -5,35 +5,42 @@
   Url:http://www.codingavatar.com
 */
 /*BASE - Base style,variable,mixin,etc*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Resto\/scss\/base\/_normalize\.scss}line{font-family:\000031}}
 h1, h2, h3, h4, h5 {
   margin-top: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Resto\/scss\/base\/_base\.scss}line{font-family:\000031}}
 body {
   font-family: "Segoe UI", "segoe WP", "segoe Reguler", "sans-serif";
   font-size: 15px;
   line-height: 1.7em;
   color: #494949;
-  background-color: #fff; }
+  background-color: #fd9; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Resto\/scss\/base\/_base\.scss}line{font-family:\000039}}
 a {
   color: #efefef; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Resto\/scss\/base\/_base\.scss}line{font-family:\0000312}}
 ul, li {
   list-style: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Resto\/scss\/base\/_base\.scss}line{font-family:\0000315}}
 input, textarea, button {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px; }
 
 /*MODULES - Individual site components*/
 /*LAYOUT - Page Layout style*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Resto\/scss\/layouts\/_nav\.scss}line{font-family:\000031}}
 .jumbotron {
   background-color: #FF00FF; }
 
-/*# sourceMappingURL=main.css.map */
+header .navbar-default {
+  background-color: transparent;
+  border: none; }
+
+header .navbar-default .navbar-nav > li > a {
+  color: #494949;
+  font-size: 20px; }
+
+header .navbar-default .navbar-nav > li > a:hover {
+  background: none; }
+
+header .navbar-default .navbar-nav > .active > a, header .navbar-default .navbar-nav > .active > a:focus, header .navbar-default .navbar-nav > .active > a:hover {
+  background-color: #e14226;
+  color: #FFF; }

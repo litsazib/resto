@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA;;;;;EAKE;AAEF,wCAAwC;;ACPxC,kBAAc;EACb,UAAU,EAAE,CAAC;;;ACDd,IAAI;EACH,WAAW,ECCM,qDAAkD;EDAnE,SAAS,ECDM,IAAI;EDEnB,WAAW,EAAE,KAAK;EAClB,KAAK,ECDW,OAAO;EDEvB,gBAAgB,ECAR,IAAI;;;ADGb,CAAC;EACA,KAAK,ECHS,OAAO;;;ADKtB,MAAK;EACJ,UAAU,EAAE,IAAI;;;AAEjB,uBAAqB;EEbpB,kBAAkB,EFcK,GAAG;EEb1B,qBAAqB,EFaE,GAAG;;AFD3B,wCAAwC;AAQxC,8BAA8B;;AKtB9B,UAAU;EACT,gBAAgB,EAAC,OAAO",
-"sources": ["../scss/main.scss","../scss/base/_normalize.scss","../scss/base/_base.scss","../scss/base/_variables.scss","../scss/base/_mixins.scss","../scss/layouts/_nav.scss"],
-"names": [],
-"file": "main.css"
-}
