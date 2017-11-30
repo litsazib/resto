@@ -1,0 +1,389 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"abcf",
+				"abc_fname"
+			],
+			[
+				"Auth",
+				"authorized"
+			],
+			[
+				"http",
+				"httpProvider"
+			],
+			[
+				"all",
+				"AllEvents"
+			],
+			[
+				"event",
+				"event_url"
+			],
+			[
+				"auth",
+				"AuthenticationService"
+			],
+			[
+				"au",
+				"AuthenticationService"
+			],
+			[
+				"user",
+				"loggedInUser"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"main",
+				"main_home"
+			],
+			[
+				"App",
+				"AppCtrl"
+			],
+			[
+				"url",
+				"urlRouterProvider"
+			],
+			[
+				"option",
+				"options"
+			],
+			[
+				"deque",
+				"dequeue"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sahid/Documents/scss-avatar-master/scss/main.scss",
+		"/Users/sahid/Documents/scss-avatar-master/scss/main.css",
+		"/Users/sahid/Documents/scss-avatar-master/scss/layouts/_nav.scss",
+		"/Users/sahid/Documents/scss-avatar-master/scss/layouts/_footer.scss",
+		"/Users/sahid/Documents/scss-avatar-master/scss/layouts/_header.scss",
+		"/Users/sahid/Documents/scss-avatar-master/scss/modules/_typography.scss",
+		"/Users/sahid/Documents/scss-avatar-master/css/main.css",
+		"/Users/sahid/Documents/scss-avatar-master/css/style.css",
+		"/Users/sahid/Documents/scss-avatar-master/scss/base/_base.scss",
+		"/Users/sahid/Documents/scss-avatar-master/scss/base/_variables.scss",
+		"/Users/sahid/Documents/scss-avatar-master/index.html",
+		"/Users/sahid/Documents/scss-avatar-master/gulp/gulpfile.js",
+		"/Users/sahid/Documents/scss-avatar-master/css/normalize.css",
+		"/Users/sahid/Desktop/Exam-2017/abc.text",
+		"/Users/sahid/Desktop/Exam-2017/untitled",
+		"/Users/sahid/Desktop/Exam-2017/Readme.txt",
+		"/Users/sahid/Downloads/scss-avatar-master/index.html",
+		"/Users/sahid/Downloads/scss-avatar-master/css/main.css",
+		"/Users/sahid/Desktop/index.html",
+		"/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf",
+		"/Users/sahid/Desktop/oc-responsice.css",
+		"/Applications/MAMP/htdocs/tsc-campaign-2/js/main.js",
+		"/Applications/MAMP/htdocs/ufj/index.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/index.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/js/main.js",
+		"/Applications/MAMP/htdocs/ufj/js/main.js",
+		"/Applications/MAMP/htdocs/ufj/css/main.css",
+		"/Applications/MAMP/htdocs/obentdell_sp/js/modal.js",
+		"/Applications/MAMP/htdocs/tsc-campaign-2/css/responsive.css",
+		"/Applications/MAMP/htdocs/tsc-campaign-2/index.html",
+		"/Users/sahid/Downloads/animate.css",
+		"/Users/sahid/Desktop/animation/index.html",
+		"/Users/sahid/Desktop/animation/animation.css",
+		"/Applications/MAMP/htdocs/tsc-campaign-2/README.MD",
+		"/Applications/MAMP/htdocs/oceanhawks-LP/index.php",
+		"/Users/sahid/Documents/123",
+		"/Users/sahid/Downloads/index-2.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/css/main.css",
+		"/Users/sahid/Downloads/responsive-2.css",
+		"/Users/sahid/Downloads/index-1.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/css/responsive_sp.css",
+		"/Applications/MAMP/htdocs/tscbackup/css/main.css",
+		"/Applications/MAMP/htdocs/tsc-campaign-2 backup/index.html",
+		"/Applications/MAMP/htdocs/tsc-campaign-2/README.md",
+		"/Applications/MAMP/htdocs/obentdell_sp/mypage_profile.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/logout.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/mypage_address.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/mypage_address_add.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/mypage_address_edit.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/mypage_favorite_old.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/mypage_order.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/mypage_order_datail.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/mypage_profile_error.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/mypage_resign.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/page_company.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/page_obento.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/page_teams.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/privacy_policy.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/purchase4.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/search_result_shop.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/tokutei.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/footer_about.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/footer_confirm_done.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/footer_contact _confirm.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/footer_contact _input.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/footer_contact.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/footer_contact_tenant.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/footer_help_menu.html",
+		"/Users/sahid/Desktop/● My Tasks in oceanize.co.jp - Asana_files/select.js",
+		"/Users/sahid/Desktop/● My Tasks in oceanize.co.jp - Asana_files/proxy.html",
+		"/Applications/MAMP/htdocs/backup_obentdell_sp_project/last/obentdell_sp/css/main.css",
+		"/Users/sahid/Downloads/responsive_sp.css",
+		"/Applications/MAMP/htdocs/obentdell_sp/mypage_favorite.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/mypage_favorite_more.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/page_obento_detail.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/purchase1.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/purchase2.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/purchase3.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/search_result_notfound.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/search_result_obento.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/search_result_shop_detail.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/backup_index.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/footer_contact_catalog.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/footer_contact_error.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/footer_contact_tenant2.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/footer_content_catalog2.html",
+		"/Applications/MAMP/htdocs/obentdell_sp/footer_help.html",
+		"/Users/sahid/Downloads/footer_about.html",
+		"/Users/sahid/Downloads/responsive.css",
+		"/Users/sahid/Desktop/ok.html",
+		"/Users/sahid/Downloads/callingFunction",
+		"/Applications/MAMP/htdocs/obentdell_sp/css/normalize.css",
+		"/Users/sahid/Downloads/OwlCarousel2-master/docs/demos/animate.html",
+		"/Users/sahid/Downloads/OwlCarousel2-master/docs/demos/autoheight.html",
+		"/Users/sahid/Downloads/OwlCarousel2-master/docs/demos/autoplay.html",
+		"/Users/sahid/Downloads/OwlCarousel2-master/docs/demos/basic.html",
+		"/Users/sahid/Downloads/OwlCarousel2-master/docs/demos/merge.html",
+		"/Users/sahid/Desktop/backup_js",
+		"/Users/sahid/Downloads/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/demos/one.html",
+		"/Users/sahid/Desktop/testcode.html",
+		"/Users/sahid/Desktop/testcode",
+		"/Users/sahid/Desktop/Backup/js/main.js",
+		"/Users/sahid/Desktop/Backup/css/main.css",
+		"/Users/sahid/Desktop/Backup/index.html",
+		"/Users/sahid/Desktop/mdl-template-android-dot-com/index.html",
+		"/Users/sahid/Desktop/mdl-template-android-dot-com/styles.css",
+		"/Users/sahid/Downloads/OwlCarousel2-2.2.1/docs/assets/vendors/jquery.min.js",
+		"/Users/sahid/Downloads/OwlCarousel2-2.2.1/docs/assets/css/docs.theme.min.css",
+		"/Users/sahid/Downloads/OwlCarousel2-2.2.1/docs/assets/owlcarousel/assets/owl.carousel.css",
+		"/Users/sahid/Desktop/hammer-time.min.js",
+		"/Users/sahid/Desktop/hammer.js",
+		"/Applications/MAMP/htdocs/campaign/css/style.css",
+		"/Applications/MAMP/htdocs/sazib/index.php",
+		"/Users/sahid/Desktop/oceanize/sub_app/gulpfile.js",
+		"/Applications/MAMP/htdocs/circlepass/config/circle_config.php",
+		"/Applications/MAMP/htdocs/circlepass/config/bootstrap.php",
+		"/Applications/MAMP/htdocs/circlepass/config/app.php",
+		"/Users/sahid/Downloads/redux_options_redux_options_backup_17-01-2017.json",
+		"/Users/sahid/Downloads/redux_options_redux_options_backup_15-01-2017.json",
+		"/Applications/MAMP/htdocs/smart_campus_api/fuel/app/config/development/db.php",
+		"/Applications/MAMP/htdocs/smart_campus_api/fuel/app/config/config.php",
+		"/Applications/MAMP/htdocs/smart_campus/app/tmp/cache/cake_debug_kittoolbar_cache60e6781a8945ec5a7b6d877668effdd5",
+		"/Users/sahid/Downloads/term_text.html",
+		"/Users/sahid/Desktop/term_text.html",
+		"/Applications/MAMP/htdocs/survey_f/ancate_thanks_2.php",
+		"/Applications/MAMP/htdocs/survey_f/css/ancate.css",
+		"/Users/sahid/Desktop/smartAssigning.php",
+		"/Users/sahid/Desktop/ABC edit with abc2svg.xhtml"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/obentdell_sp"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"radio",
+			"w3-row",
+			"w12-container",
+			"closeNav()\n\n\n\n\n\n\n\n\n\n",
+			"body",
+			"wrinkle",
+			"transparent",
+			"          <div class=\"coppy_right center_text\">\n            <img class=\"large_device\" src=\"img/Copyright.png\" alt=\"\">\n            <img class=\"ip_6\" src=\"img/375/copyright.png\" alt=\"\">\n          </div>",
+			"<link rel=\"stylesheet\" href=\"css/main.css\">",
+			"<li><a onclick=\"link_redirect('footer_help.html');\" href=\"#\">ヘルプ</a></li>",
+			" <p class=\"right\">土・日・祝日  10:00～18:00</p>",
+			"<p class=\"left\">平日 9:00～19:00</p>",
+			"input",
+			"example-info",
+			"mdl-layout__container",
+			"my_img_out",
+			"readTextFile",
+			"edit",
+			"abc_fname",
+			"callFromActivity",
+			"\n</",
+			"contact",
+			"info",
+			"CONTACT OUR LAWYERS",
+			"kc_a",
+			"script",
+			"\n\napp.",
+			">\n",
+			"f_name",
+			"remove",
+			"demo-default"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"          <div class=\"coppy_right\">\n            <img class=\"large_device\" src=\"img/Copyright.png\" alt=\"\">\n            <img class=\"ip_6\" src=\"img/375/copyright.png\" alt=\"\">\n            <p class=\"copyright_text\">Copyright © 2015 WAO INC. All Rights Reserved.</p>\n          </div>",
+			"        <link rel=\"stylesheet\" href=\"css/main.css\">\n        <link rel=\"stylesheet\" href=\"css/responsive_sp.css\">",
+			"<li><a onclick=\"link_redirect('footer_help_menu.html');\" href=\"#\">ヘルプ</a></li>",
+			" <p class=\"right pl6\">土・日・祝日  10:00～18:00</p>",
+			"<p class=\"left pl5\">平日 9:00～19:00</p>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
