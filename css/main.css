@@ -1,44 +1,39 @@
 /*
-	CodingAvatar Bootstrap Scss Theme
+	CodingAvatar Resto Theme
 	Author:Roktim Sazib
 	Version:0.0.1
   Url:http://www.codingavatar.com
 */
 /*BASE - Base style,variable,mixin,etc*/
-/*Font Color*/
-/*Background Color*/
-/*cbox Color*/
-/*circle Color*/
-/* line 1, ../scss/base/_normalize.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Resto\/scss\/base\/_normalize\.scss}line{font-family:\000031}}
 h1, h2, h3, h4, h5 {
-  margin-top: 0;
-}
+  margin-top: 0; }
 
-/* line 1, ../scss/base/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Resto\/scss\/base\/_base\.scss}line{font-family:\000031}}
 body {
   font-family: "Segoe UI", "segoe WP", "segoe Reguler", "sans-serif";
   font-size: 15px;
   line-height: 1.7em;
-  color: black;
-  background: #0078d7;
-  background: rgba(0, 120, 215, 0.3);
-}
+  color: #494949;
+  background-color: #fff; }
 
-/* line 10, ../scss/base/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Resto\/scss\/base\/_base\.scss}line{font-family:\000039}}
 a {
-  color: #00aff0;
-}
+  color: #efefef; }
 
-/* line 13, ../scss/base/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Resto\/scss\/base\/_base\.scss}line{font-family:\0000312}}
 ul, li {
-  list-style: none;
-}
+  list-style: none; }
 
-/* line 16, ../scss/base/_base.scss */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Resto\/scss\/base\/_base\.scss}line{font-family:\0000315}}
 input, textarea, button {
   -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
-}
+  -webkit-border-radius: 0px; }
 
 /*MODULES - Individual site components*/
 /*LAYOUT - Page Layout style*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/Resto\/scss\/layouts\/_nav\.scss}line{font-family:\000031}}
+.jumbotron {
+  background-color: #FF00FF; }
+
+/*# sourceMappingURL=main.css.map */

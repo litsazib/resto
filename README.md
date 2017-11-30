@@ -1,7 +1,5 @@
-Scss Startup Pack!
+Resto Template v1.0
 ===================
-
-Hey! I'm your smart scss quick start-up package **scss avatar**.  I'm very helpful to front-end template development !
 
 ----------
 #### <i class="icon-pencil"></i> Key Features
@@ -18,16 +16,3 @@ Add more mixins function include in this package ,Just clone this repository and
 > - Gulp CSS Minifier 
 > - Gulp JS Minifier 
 > - Gulp SCSS/SASS Compiler 
-
-#### <i class="icon-cog"></i> Mixins document
-
-> [Get Started ](https://www.codingavatar.com)
-
-
-
-
-### Powered By-
-
-[![](http://www.codingavatar.com/img/logo.png)](https://codingavatar.com)
-
-
