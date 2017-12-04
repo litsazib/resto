@@ -1,0 +1,25 @@
+section.slider_area {
+  background-image: url(../images/slider/slider2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section.slider_area {
+  .caption{
+    color: $btn-text;
+    margin: 30% 0px;
+    text-align: left;
+  }
+  .caption h2{
+    font-family: $slider_title_font;
+    font-size: 25px;
+  }
+  .caption h1{
+    font-size: 50px;
+    margin: 0px;
+  }
+  .caption p{
+    font-size: 16px;
+    padding-bottom: 20px;
+  }  
+}
