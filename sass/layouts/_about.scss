@@ -1,0 +1,49 @@
+section.we_are_testy{
+  background-color: $main-bg;
+  padding: 40px 0px;
+  position: relative;
+  img{
+    max-width: 100%;
+  }
+  .section_left_img {
+    position: absolute;
+    top: 95px;
+    left: -45px;
+    width: 14%;
+  }
+
+.section_left_img >img {
+  width: 250px;
+  height: auto;
+  transform: rotate(-20deg);
+}
+.border-image {
+  padding: 5px;
+  border: 2px solid #f7f7f7;
+  border-radius: 5px;
+}
+.about_text{
+  width: 70%;
+  margin: 10% 10% 0px;
+}
+.about_text>h2 {
+  font-size: 18px;
+  font-family: $slider_title_font;
+  color: $secondary-color;
+}
+.about_text>h1 {
+  text-transform: uppercase;
+  color: $base-font-color;
+}
+.about_text>p {
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+}
