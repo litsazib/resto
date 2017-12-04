@@ -1,11 +1,13 @@
 header{
+  background-color: #fff;
   .navbar-default{
     background-color: transparent;
     border: none;
   }
   .navbar-default .navbar-nav>li>a{
     color: $base-font-color;
-    font-size: $base-font-size+5;
+    font-size: $base-font-size+2;
+    text-transform: uppercase;
   }
   .navbar-default .navbar-nav>li>a:hover{
     background: none;
@@ -14,4 +16,22 @@ header{
     background-color: $secondary-color;
     color: $btn-text;
   }
+  a.navbar-brand>img {
+    height: auto;
+    max-width: 100px;
+    width: 100%;
+  }
+  ul.nav.navbar-nav.navbar-right {
+    margin-top: 2%;
+  }
+  .navbar {
+    min-height: 70px;
+  }
+  .navbar-brand{
+    padding: 0px;
+  }
+  
+  
+  
+  
 }

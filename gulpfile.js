@@ -1,5 +1,6 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
+//var gulp = require('gulp');
+//var sass = require('gulp-sass');
+//var watch = require('gulp-watch');
 
 
 gulp.task('sass',function(){
@@ -15,6 +16,5 @@ gulp.task('watch',function(){
 
 
 
-gulp.task('default',['sass','watch']);
+gulp.task('default', ['watch','sass']);
 
-	

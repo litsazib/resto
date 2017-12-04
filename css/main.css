@@ -9,11 +9,11 @@ h1, h2, h3, h4, h5 {
   margin-top: 0; }
 
 body {
-  font-family: "Segoe UI", "segoe WP", "segoe Reguler", "sans-serif";
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   line-height: 1.7em;
   color: #494949;
-  background-color: #fd9; }
+  background-color: #FFF; }
 
 a {
   color: #efefef; }
@@ -26,21 +26,183 @@ input, textarea, button {
   -webkit-border-radius: 0px; }
 
 /*MODULES - Individual site components*/
-/*LAYOUT - Page Layout style*/
-.jumbotron {
-  background-color: #FF00FF; }
-
-header .navbar-default {
-  background-color: transparent;
+form.search input[type=text] {
+  width: 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: white;
+  background-repeat: no-repeat;
+  padding: 14px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  position: relative;
   border: none; }
+form.search input[type=text]:focus {
+  width: 100%;
+  padding-left: 20px;
+  outline: none; }
+form.search i.fa.fa-search.icon_search {
+  position: absolute;
+  position: absolute;
+  top: 35%; }
 
-header .navbar-default .navbar-nav > li > a {
-  color: #494949;
-  font-size: 20px; }
-
-header .navbar-default .navbar-nav > li > a:hover {
-  background: none; }
-
-header .navbar-default .navbar-nav > .active > a, header .navbar-default .navbar-nav > .active > a:focus, header .navbar-default .navbar-nav > .active > a:hover {
+/*slider button*/
+.caption a {
+  color: #FFF;
   background-color: #e14226;
-  color: #FFF; }
+  padding: 10px 15px;
+  text-decoration: none; }
+
+.caption a:hover {
+  opacity: 0.7;
+  transition: 0.3s; }
+
+/*about section button*/
+.about_text a {
+  border: 1px solid #e14226;
+  padding: 10px 14px;
+  display: inline;
+  color: #494949;
+  border-radius: 50px;
+  padding-right: 0;
+  text-decoration: none; }
+  .about_text a span {
+    background: #e14226;
+    color: #FFF;
+    padding: 10px 25px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; }
+
+.about_text a:hover {
+  background: #e14226;
+  color: #FFF;
+  transition: 0.4s; }
+
+/*LAYOUT - Page Layout style*/
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: #e14226;
+  transition: 0.3s; }
+
+header {
+  background-color: #fff; }
+  header .navbar-default {
+    background-color: transparent;
+    border: none; }
+  header .navbar-default .navbar-nav > li > a {
+    color: #494949;
+    font-size: 17px;
+    text-transform: uppercase; }
+  header .navbar-default .navbar-nav > li > a:hover {
+    background: none; }
+  header .navbar-default .navbar-nav > .active > a, header .navbar-default .navbar-nav > .active > a:focus, header .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #e14226;
+    color: #FFF; }
+  header a.navbar-brand > img {
+    height: auto;
+    max-width: 100px;
+    width: 100%; }
+  header ul.nav.navbar-nav.navbar-right {
+    margin-top: 2%; }
+  header .navbar {
+    min-height: 70px; }
+  header .navbar-brand {
+    padding: 0px; }
+
+section.slider_area {
+  background-image: url(../images/slider/slider2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+section.slider_area .caption {
+  color: #FFF;
+  margin: 30% 0px;
+  text-align: left; }
+section.slider_area .caption h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 25px; }
+section.slider_area .caption h1 {
+  font-size: 50px;
+  margin: 0px; }
+section.slider_area .caption p {
+  font-size: 16px;
+  padding-bottom: 20px; }
+
+section.we_are_testy {
+  background-color: #FFF;
+  padding: 40px 0px;
+  position: relative; }
+  section.we_are_testy img {
+    max-width: 100%; }
+  section.we_are_testy .section_left_img {
+    position: absolute;
+    top: 95px;
+    left: -45px;
+    width: 14%; }
+  section.we_are_testy .section_left_img > img {
+    width: 250px;
+    height: auto;
+    transform: rotate(-20deg); }
+  section.we_are_testy .border-image {
+    padding: 5px;
+    border: 2px solid #f7f7f7;
+    border-radius: 5px; }
+  section.we_are_testy .about_text {
+    width: 70%;
+    margin: 10% 10% 0px; }
+  section.we_are_testy .about_text > h2 {
+    font-size: 18px;
+    font-family: "Pacifico", cursive;
+    color: #e14226; }
+  section.we_are_testy .about_text > h1 {
+    text-transform: uppercase;
+    color: #494949; }
+  section.we_are_testy .about_text > p {
+    padding-bottom: 30px; }
+
+section.popular_dishes {
+  background-color: #efefef;
+  padding: 40px 0px; }
+  section.popular_dishes .heading.text-center {
+    width: 80%;
+    margin: 0 auto; }
+  section.popular_dishes h1 {
+    font-family: "Pacifico", cursive;
+    text-transform: capitalize;
+    color: #494949; }
+  section.popular_dishes p {
+    color: #494949;
+    margin-top: 20px; }
+  section.popular_dishes span {
+    width: 100px;
+    border-bottom: 4px solid #e14226;
+    display: block;
+    margin: 0 auto; }
+  section.popular_dishes .dishes-item {
+    width: 80%;
+    margin: 0 auto; }
+  section.popular_dishes ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex; }
+  section.popular_dishes a {
+    text-decoration: none;
+    color: #494949; }
+  section.popular_dishes li {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    background-color: #FFF; }
+  section.popular_dishes img {
+    max-width: 100%;
+    height: 220px; }
+  section.popular_dishes .price {
+    text-align: center;
+    margin-top: 15px;
+    text-transform: capitalize; }
+  section.popular_dishes .price p {
+    margin: 0;
+    padding: 0;
+    color: #e14226; }
+
+/*# sourceMappingURL=main.css.map */

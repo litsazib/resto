@@ -1,3 +1,4 @@
-.jumbotron{
-	background-color:#FF00FF;
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: $secondary-color;
+	transition: 0.3s;
 }
