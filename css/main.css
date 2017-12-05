@@ -214,7 +214,7 @@ section.popular_dishes {
     left: 0; }
 
 section.food_menu {
-  padding: 60px 0px 100px; }
+  padding: 60px 0px 0px; }
   section.food_menu span {
     width: 100px;
     border-bottom: 4px solid #e14226;
@@ -257,5 +257,25 @@ section.food_menu {
     width: 100%;
     height: 100%;
     display: none; }
+
+section.reservation {
+  padding: 60px 0px 100px;
+  background-color: #efefef; }
+  section.reservation h1 {
+    font-family: "Pacifico", cursive;
+    text-transform: capitalize;
+    color: #494949; }
+  section.reservation p {
+    color: #494949;
+    margin-top: 20px; }
+  section.reservation .heading.text-center {
+    width: 80%;
+    margin: 0 auto; }
+  section.reservation .reservation-form {
+    background-color: #FFF;
+    margin-top: 60px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777; }
 
 /*# sourceMappingURL=main.css.map */
