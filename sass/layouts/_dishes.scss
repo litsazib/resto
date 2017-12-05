@@ -1,6 +1,7 @@
 section.popular_dishes{
   background-color: $primary-color;
-  padding: 40px 0px;
+  padding: 60px 0px 100px;
+  position: relative;
   
   .heading.text-center {
     width: 80%;
@@ -14,6 +15,7 @@ section.popular_dishes{
   p{
     color: $base-font-color;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   span{
     width: 100px;
@@ -25,34 +27,40 @@ section.popular_dishes{
     width: 80%;
     margin: 0 auto;
   }
-  ul{
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-  }
   a{
     text-decoration: none;
-    color: $base-font-color;
+    color:$base-font-color;
   }
-  li{
-    list-style: none;
-    padding: 5px;
-    margin: 5px;
-    background-color: $btn-text;
-  }
-  img{
-    max-width: 100%;
+  .dishes-item img{
+    width: 100%;
     height: 220px;
   }
   .price {
     text-align: center;
-    margin-top: 15px;
+    padding: 15px 0px;
     text-transform: capitalize;
+    background-color: $main-bg;
+    margin-bottom: 15px;
   }
   .price p{
     margin: 0;
     padding: 0;
     color: $secondary-color;
+  }
+  .right-image{
+    width: 450px;
+    position: absolute;
+    top: -14px;
+    right: 0;
+  }
+  .right-image>img{
+    width: 100%;
+    height: auto !important;
+  }
+  .left-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 
 

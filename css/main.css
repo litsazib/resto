@@ -162,7 +162,8 @@ section.we_are_testy {
 
 section.popular_dishes {
   background-color: #efefef;
-  padding: 40px 0px; }
+  padding: 60px 0px 100px;
+  position: relative; }
   section.popular_dishes .heading.text-center {
     width: 80%;
     margin: 0 auto; }
@@ -172,7 +173,8 @@ section.popular_dishes {
     color: #494949; }
   section.popular_dishes p {
     color: #494949;
-    margin-top: 20px; }
+    margin-top: 20px;
+    margin-bottom: 20px; }
   section.popular_dishes span {
     width: 100px;
     border-bottom: 4px solid #e14226;
@@ -181,28 +183,61 @@ section.popular_dishes {
   section.popular_dishes .dishes-item {
     width: 80%;
     margin: 0 auto; }
-  section.popular_dishes ul {
-    margin: 0px;
-    padding: 0px;
-    display: flex; }
   section.popular_dishes a {
     text-decoration: none;
     color: #494949; }
-  section.popular_dishes li {
-    list-style: none;
-    padding: 5px;
-    margin: 5px;
-    background-color: #FFF; }
-  section.popular_dishes img {
-    max-width: 100%;
+  section.popular_dishes .dishes-item img {
+    width: 100%;
     height: 220px; }
   section.popular_dishes .price {
     text-align: center;
-    margin-top: 15px;
-    text-transform: capitalize; }
+    padding: 15px 0px;
+    text-transform: capitalize;
+    background-color: #FFF;
+    margin-bottom: 15px; }
   section.popular_dishes .price p {
     margin: 0;
     padding: 0;
     color: #e14226; }
+  section.popular_dishes .right-image {
+    width: 450px;
+    position: absolute;
+    top: -14px;
+    right: 0; }
+  section.popular_dishes .right-image > img {
+    width: 100%;
+    height: auto !important; }
+  section.popular_dishes .left-image {
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+section.food_menu {
+  padding: 60px 0px 100px; }
+  section.food_menu span {
+    width: 100px;
+    border-bottom: 4px solid #e14226;
+    display: block;
+    margin: 0 auto; }
+  section.food_menu h1 {
+    font-family: "Pacifico", cursive;
+    text-transform: capitalize;
+    color: #494949; }
+  section.food_menu p {
+    color: #494949;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  section.food_menu .heading.text-center {
+    width: 80%;
+    margin: 0 auto; }
+  section.food_menu .food-item {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap; }
+  section.food_menu .item {
+    flex-basis: 25%;
+    text-align: center; }
+  section.food_menu .item a img {
+    width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,42 @@
+section.food_menu{
+    padding: 60px 0px 100px;
+
+  span{
+    width: 100px;
+    border-bottom: 4px solid $secondary-color;
+    display: block;
+    margin: 0 auto;
+  }
+  h1{
+    font-family: $slider_title_font;
+    text-transform: capitalize;
+    color: $base-font-color;
+  }
+  p{
+    color: $base-font-color;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .heading.text-center {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .food-item{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+  }
+  .item{
+    flex-basis: 25%;
+    text-align: center;
+  }
+  .item a img {
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  
+}
