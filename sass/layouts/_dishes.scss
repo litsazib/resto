@@ -48,9 +48,10 @@ section.popular_dishes{
     color: $secondary-color;
   }
   .right-image{
-    width: 450px;
     position: absolute;
-    top: -14px;
+    width: 20%;
+    position: absolute;
+    top: -101px;
     right: 0;
   }
   .right-image>img{
