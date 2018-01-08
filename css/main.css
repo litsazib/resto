@@ -44,7 +44,8 @@ form.search input[type=text]:focus {
 form.search i.fa.fa-search.icon_search {
   position: absolute;
   position: absolute;
-  top: 35%; }
+  top: 35%;
+  cursor: pointer; }
 
 /*slider button*/
 .caption a {
@@ -81,7 +82,18 @@ form.search i.fa.fa-search.icon_search {
 /*LAYOUT - Page Layout style*/
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   color: #e14226;
-  transition: 0.3s; }
+  transition: 0.5s; }
+
+header .navbar-default .navbar-nav > li > a:hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0;
+  left: 0;
+  bottom: 0px;
+  /*Change this to increase/decrease distance*/
+  border-bottom: 2px solid #e14226;
+  transition: 0.5s; }
 
 header {
   background-color: #fff; }
@@ -299,5 +311,52 @@ section.reservation {
     border: none; }
   section.reservation .btn {
     padding: 10px 12px; }
+
+section.gallery {
+  padding: 60px 0px 100px;
+  background-color: #FFF; }
+  section.gallery .heading > span {
+    width: 100px;
+    border-bottom: 4px solid #e14226;
+    display: block;
+    margin: 0 auto; }
+  section.gallery h1 {
+    font-family: "Pacifico", cursive;
+    text-transform: capitalize;
+    color: #494949; }
+  section.gallery p {
+    color: #494949;
+    margin-top: 20px; }
+  section.gallery .heading.text-center {
+    width: 80%;
+    margin: 0 auto; }
+  section.gallery .galleryFilter a {
+    margin-right: 10px;
+    color: #666;
+    text-decoration: none; }
+  section.gallery .galleryFilter a.current {
+    font-weight: bold; }
+  section.gallery img {
+    margin: 5px;
+    max-width: 100%; }
+  section.gallery .isotope-item {
+    z-index: 2; }
+  section.gallery .isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1; }
+  section.gallery .isotope,
+  section.gallery .isotope .isotope-item {
+    /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s; }
+  section.gallery .isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width; }
+  section.gallery .isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity; }
 
 /*# sourceMappingURL=main.css.map */
