@@ -332,12 +332,13 @@ section.gallery {
     margin: 0 auto; }
   section.gallery .galleryFilter a {
     margin-right: 10px;
-    color: #666;
+    color: #494949;
     text-decoration: none; }
   section.gallery .galleryFilter a.current {
-    font-weight: bold; }
+    font-weight: bold;
+    color: #e14226; }
   section.gallery img {
-    margin: 5px;
+    padding: 5px;
     max-width: 100%; }
   section.gallery .isotope-item {
     z-index: 2; }
@@ -358,5 +359,15 @@ section.gallery {
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity; }
+  section.gallery .galleryContainer {
+    width: 100%;
+    overflow: hidden; }
+  section.gallery .galleryContainer > div {
+    width: 33.33%;
+    float: left;
+    height: 301px; }
+  section.gallery .galleryFilter {
+    text-align: center;
+    padding: 40px 0px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -26,16 +26,17 @@ section.gallery {
   
   .galleryFilter a { 
       margin-right: 10px; 
-      color:#666;
+      color: $base-font-color;
       text-decoration:none;
   }
    
   .galleryFilter a.current { 
       font-weight:bold;
+      color: $secondary-color;
   }
    
   img {
-      margin:5px;
+      padding:5px;
       max-width: 100%;
   }
    
@@ -65,6 +66,20 @@ section.gallery {
       transition-property: transform, opacity;
   }
   
+  .galleryContainer {
+    width: 100%;
+    overflow: hidden;
+  }
+  .galleryContainer>div {
+    width: 33.33%;
+    float: left;
+    height: 301px;
+  }
+  .galleryFilter {
+    text-align: center;
+    padding: 40px 0px;
+  }
+    
   
   
   
