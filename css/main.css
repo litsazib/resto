@@ -364,8 +364,7 @@ section.gallery {
     overflow: hidden; }
   section.gallery .galleryContainer > div {
     width: 33.33%;
-    float: left;
-    height: 301px; }
+    float: left; }
   section.gallery .galleryFilter {
     text-align: center;
     padding: 40px 0px; }
