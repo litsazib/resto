@@ -13,6 +13,7 @@ section.reservation{
     font-family: $slider_title_font;
     text-transform: capitalize;
     color: $base-font-color;
+    margin-top: 25px;
   }
   p{
     color: $base-font-color;
@@ -35,8 +36,8 @@ section.reservation{
     margin-bottom: 15%;
   }
   form.form-horizontal {
-    margin-left: 10%;
-    margin-top: 25%;
+    width: 90%;
+    margin: 0 auto;
   }
   .btn-default{
     width: 100%;

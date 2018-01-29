@@ -172,6 +172,9 @@ section.we_are_testy {
   section.we_are_testy .about_text > p {
     padding-bottom: 30px; }
 
+@media only screen and (max-width: 768px) {
+  .section_left_img {
+    display: none; } }
 section.popular_dishes {
   background-color: #efefef;
   padding: 60px 0px 100px;
@@ -225,6 +228,9 @@ section.popular_dishes {
     bottom: 0;
     left: 0; }
 
+@media only screen and (max-width: 768px) {
+  .right-image {
+    width: 40% !important; } }
 section.food_menu {
   padding: 60px 0px 0px; }
   section.food_menu span {
@@ -281,7 +287,8 @@ section.reservation {
   section.reservation h1 {
     font-family: "Pacifico", cursive;
     text-transform: capitalize;
-    color: #494949; }
+    color: #494949;
+    margin-top: 25px; }
   section.reservation p {
     color: #494949;
     margin-top: 20px; }
@@ -298,8 +305,8 @@ section.reservation {
     text-align: center;
     margin-bottom: 15%; }
   section.reservation form.form-horizontal {
-    margin-left: 10%;
-    margin-top: 25%; }
+    width: 90%;
+    margin: 0 auto; }
   section.reservation .btn-default {
     width: 100%;
     border-radius: 0px; }

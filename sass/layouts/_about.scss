@@ -39,11 +39,12 @@ section.we_are_testy{
   padding-bottom: 30px;
 }
 
+}
 
-
-
-
-
+@media only screen and (max-width: 768px) {
+  .section_left_img{
+    display: none;
+  }
 
 
 }
