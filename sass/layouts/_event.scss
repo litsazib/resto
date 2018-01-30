@@ -1,0 +1,126 @@
+section.events{
+    padding: 70px 0px 125px;
+    background-image: url('../images/event_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    .overlaybg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      background: rgba(14, 11, 11, 0.63);
+    }
+  .heading>span{
+    width: 100px;
+    border-bottom: 4px solid $secondary-color;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  h1{
+    font-family: $slider_title_font;
+    text-transform: capitalize;
+    color: $main-bg;
+    margin-top: 25px;
+  }
+  p{
+    color: $main-bg;
+    margin-top: 20px;
+  }
+  .heading.text-center {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .event_image {
+    border: 1px solid #fff;
+    padding: 1px;
+    border-radius: 5px;
+    background-color: #FFF;
+     img{
+       max-width: 100%;
+     }
+  }
+  .event_into h1{
+    font-family: cursive;
+    color: $main-bg;
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+  }
+  .event_content {
+    margin-top: 60px;
+  }
+  .event_time {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .event_time>div {
+    padding: 0px 15px;
+    padding-top: 5px;
+    font-size: 25px;
+    color: #FFF;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+  }
+  .active_month{
+    background-color: #FFF;
+    color: $secondary-color !important;
+    border: transparent !important
+  }
+  .day span{
+    display: block;
+    font-size: 13px;
+  }
+  .month span{
+    display: block;
+    font-size: 13px;
+  }
+  .year span{
+    display: block;
+    font-size: 13px;
+  }
+  .event_conf_btn a{
+    text-decoration: none;
+    background: $secondary-color;
+    padding: 13px 100px;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .event_conf_btn a:hover{
+    color: #FFF;
+    background-color: #666;
+  }
+
+
+}
+/*Small device */ 
+@media only screen and (max-width: 768px) {
+  .event_image{
+    margin-top: 50px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

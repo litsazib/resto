@@ -376,4 +376,88 @@ section.gallery {
     text-align: center;
     padding: 40px 0px; }
 
+section.events {
+  padding: 70px 0px 125px;
+  background-image: url("../images/event_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  section.events .overlaybg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(14, 11, 11, 0.63); }
+  section.events .heading > span {
+    width: 100px;
+    border-bottom: 4px solid #e14226;
+    display: block;
+    margin: 0 auto; }
+  section.events h1 {
+    font-family: "Pacifico", cursive;
+    text-transform: capitalize;
+    color: #FFF;
+    margin-top: 25px; }
+  section.events p {
+    color: #FFF;
+    margin-top: 20px; }
+  section.events .heading.text-center {
+    width: 80%;
+    margin: 0 auto; }
+  section.events .event_image {
+    border: 1px solid #fff;
+    padding: 1px;
+    border-radius: 5px;
+    background-color: #FFF; }
+    section.events .event_image img {
+      max-width: 100%; }
+  section.events .event_into h1 {
+    font-family: cursive;
+    color: #FFF;
+    font-size: 35px;
+    padding: 0;
+    margin: 0; }
+  section.events .event_content {
+    margin-top: 60px; }
+  section.events .event_time {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+    margin-bottom: 45px; }
+  section.events .event_time > div {
+    padding: 0px 15px;
+    padding-top: 5px;
+    font-size: 25px;
+    color: #FFF;
+    border-top: 1px solid;
+    border-bottom: 1px solid; }
+  section.events .active_month {
+    background-color: #FFF;
+    color: #e14226 !important;
+    border: transparent !important; }
+  section.events .day span {
+    display: block;
+    font-size: 13px; }
+  section.events .month span {
+    display: block;
+    font-size: 13px; }
+  section.events .year span {
+    display: block;
+    font-size: 13px; }
+  section.events .event_conf_btn a {
+    text-decoration: none;
+    background: #e14226;
+    padding: 13px 100px;
+    border-radius: 5px;
+    box-sizing: border-box; }
+  section.events .event_conf_btn a:hover {
+    color: #FFF;
+    background-color: #666; }
+
+/*Small device */
+@media only screen and (max-width: 768px) {
+  .event_image {
+    margin-top: 50px; } }
+
 /*# sourceMappingURL=main.css.map */
