@@ -1,0 +1,29 @@
+section.contactus{
+  padding: 60px 0px 100px;
+  background-color: $primary-color;
+  
+  .heading>span{
+    width: 100px;
+    border-bottom: 4px solid $secondary-color;
+    display: block;
+    margin: 0 auto;
+  }
+  .contact-area {
+      background-color: $main-bg;
+  }
+    .contact-head h3{
+        font-family: $slider_title_font;
+        text-transform: capitalize;
+        color: $base-font-color;
+        margin-top: 25px;
+    }
+
+
+  
+  
+  
+  
+  
+  
+  
+}

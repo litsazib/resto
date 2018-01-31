@@ -459,5 +459,20 @@ section.events {
 @media only screen and (max-width: 768px) {
   .event_image {
     margin-top: 50px; } }
+section.contactus {
+  padding: 60px 0px 100px;
+  background-color: #efefef; }
+  section.contactus .heading > span {
+    width: 100px;
+    border-bottom: 4px solid #e14226;
+    display: block;
+    margin: 0 auto; }
+  section.contactus .contact-area {
+    background-color: #FFF; }
+  section.contactus .contact-head h3 {
+    font-family: "Pacifico", cursive;
+    text-transform: capitalize;
+    color: #494949;
+    margin-top: 25px; }
 
 /*# sourceMappingURL=main.css.map */
